@@ -1,0 +1,24 @@
+{
+  "name": "graphql-todo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.8.1",
+    "flow-bin": "^0.78.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "flow": "flow",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-app-rewired eject"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.8.0",
+    "react-app-rewire-stylus-modules": "^0.0.2",
+    "react-app-rewired": "^1.5.2"
+  }
+}

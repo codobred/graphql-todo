@@ -1,8 +1,6 @@
 {
   "extends": [
     "prettier",
-    "prettier/flowtype",
-    "prettier/react",
-    "prettier/standard"
+    "react-app"
   ]
 }

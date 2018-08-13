@@ -3,3 +3,21 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+html,
+body,
+#root {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  display: flex;
+}
+
+.App {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
